@@ -7,7 +7,7 @@ echo
 sleep 2 
 
 echo "rsync file1 file2 ... host: "
-echo " $HOMEDIRCTORY " 
+echo "$CD ./HOME" 
 echo 
 sleep 2 
 
