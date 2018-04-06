@@ -6,8 +6,8 @@ echo " touch file1 file2 "
 echo
 sleep 2 
 
-echo "rsync file1 file2 ... host: "
-echo "$CD ./HOME" 
+echo "rsync file1 file2 ... host: $HOMEDIRECTORY"
+HOMEDIRECTORY = "cd home" 
 echo 
 sleep 2 
 
